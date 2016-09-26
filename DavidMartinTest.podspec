@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
 
-  s.name            = "PodLibrary"
+  s.name            = "DavidMartinTest"
   s.version         = "0.0.1"
-  s.summary         = "PodLibrary is meant to be a test to check how to create a cocoapods pod out of a common library"
+  s.summary         = "DavidMartintest is meant to be a test to check how to create a cocoapods pod out of a common library"
   s.license         = { :type => "MIT", :file => "LICENSE" }
   s.author          = { "David Martin" => "david@martinmacias.com" }
   s.platform        = :ios, "7.0"
