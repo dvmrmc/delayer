@@ -2,12 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/cerberillo/Desktop/podLibrary/DavidMartinTest.podspec">
+      location = "group:delayer/delayer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:LICENSE">
    </FileRef>
    <FileRef
-      location = "group:podLibrary/podLibrary.xcodeproj">
+      location = "group:README.md">
+   </FileRef>
+   <FileRef
+      location = "group:delayer.podspec">
    </FileRef>
 </Workspace>

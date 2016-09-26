@@ -8,15 +8,15 @@
 
 Pod::Spec.new do |s|
 
-  s.name            = "DavidMartinTest"
+  s.name            = "Delayer"
   s.version         = "0.0.1"
-  s.summary         = "DavidMartintest is meant to be a test to check how to create a cocoapods pod out of a common library"
+  s.summary         = "Delayer is meant to callback after the specified delay"
   s.license         = { :type => "MIT", :file => "LICENSE" }
   s.author          = { "David Martin" => "david@martinmacias.com" }
   s.platform        = :ios, "7.0"
-  s.homepage        = "https://github.com/cerberillo/podLibrary"
-  s.source          = { :git => "https://github.com/cerberillo/podLibrary.git", :tag => "#{s.version}" }
-  s.source_files    = "podLibrary/podLibrary/*.{h,m}"
+  s.homepage        = "https://github.com/cerberillo/delayer"
+  s.source          = { :git => "https://github.com/cerberillo/delayer.git", :tag => "#{s.version}" }
+  s.source_files    = "delayer/delayer/*.{h,m}"
   s.framework       = "AdSupport"
 
 end
