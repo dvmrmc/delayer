@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.platform        = :ios, "7.0"
   s.homepage        = "https://github.com/cerberillo/podLibrary"
   s.source          = { :git => "https://github.com/cerberillo/podLibrary.git", :tag => "#{s.version}" }
-#s.source_files    = "podLibrary/*.{h,m}"
+  s.source_files    = "podLibrary/podLibrary/*.{h,m}"
   s.framework       = "AdSupport"
 
 end
