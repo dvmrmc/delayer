@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name            = "Delayer"
+  s.name            = "delayer"
   s.version         = "0.0.1"
   s.summary         = "Delayer is meant to callback after the specified delay"
   s.license         = { :type => "MIT", :file => "LICENSE" }
