@@ -9,13 +9,14 @@
 Pod::Spec.new do |s|
 
   s.name            = "delayer"
-  s.version         = "0.0.1"
+  s.version         = "1.0.0"
   s.summary         = "Delayer is meant to callback after the specified delay"
   s.license         = { :type => "MIT", :file => "LICENSE" }
   s.author          = { "David Martin" => "david@martinmacias.com" }
   s.platform        = :ios, "7.0"
   s.homepage        = "https://github.com/cerberillo/delayer"
-  s.source          = { :git => "https://github.com/cerberillo/delayer.git", :tag => "#{s.version}" }
+  s.source          = { :git => "https://github.com/cerberillo/delayer.git",
+                        :tag => "#{s.version}" }
   s.source_files    = "delayer/delayer/*.{h,m}"
   s.framework       = "AdSupport"
 
